@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare_Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <!-- -----------------navbar section----------------------- -->
+        <nav class="navbar navbar-inverse transparent-navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <img src="image/logo1-removebg-preview.png" alt="Logo" class="navbar-logo">
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li class=""><a href="#">Welcome to our Healthcare Services</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">Departments<span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">DENTIST</a></li>
+                                <li><a href="#">CARDIOLOGIST</a></li>
+                                <li><a href="#">CHIROPRACTOR</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Doctors/Experts</a></li>
+                        <li><a href="#">Appointments</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- -----------------slider section----------------------- -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="image/1st slide.jpeg" alt="Los Angeles" style="width:100%;">
+                <div class="carousel-caption">
+                </div>
+
+            </div>
+
+            <div class="item">
+                <img src="image/2nd slide.jpg" alt="Chicago" style="width:100%;">
+                <div class="text">Advanced Medical Solutions
+                    Experience the future of healthcare with our state-of-the-art facilities and cutting-edge
+                    technology.
+                    From accurate diagnostics to minimally invasive treatments, we offer advanced solutions designed to
+                    ensure better outcomes and faster recovery times.</div>
+            </div>
+
+            <div class="item">
+                <img src="image/3rd slide.jpg" alt="New york" style="width:100%;">
+                <div class="text">Your Partner in Wellness
+                    Healthcare is not just about treating illness; it's about promoting lifelong wellness. Whether you
+                    need preventive care, chronic disease management, or expert advice on healthy living, we're here to
+                    support you at every stage of your journey.</div>
+            </div>
+
+            <div class="item">
+                <img src="image/4th slide.jpg" alt="New york" style="width:100%;">
+                <div class="text">Accessible, Affordable Healthcare
+                    Quality healthcare should be available to everyone. That's why we strive to make our services
+                    affordable and accessible to all. With a wide network of clinics and online consultations, we’re
+                    always here to
+                    meet your healthcare needs—anytime, anywhere.</div>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+
+    <!-------------------Services Section-------------------->
+    <div class="col-md-12 text-center service-section py-4">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
+                <h4>Professional Staff</h4>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button class="btn btn-outline-light">Read More</button>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h4>Affordable Prices</h4>
+                <p>Aliquam sit amet porttitor ex.</p>
+                <button class="btn btn-outline-light">View Pricelist</button>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h4>Insurance Partners</h4>
+                <p>Praesent cursus ligula elit.</p>
+                <button class="btn btn-outline-light">Read More</button>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <h4>Consult Our Doctors</h4>
+                <p>Select the doctor you prefer.</p>
+                <button class="btn btn-outline-light">Choose a Doctor</button>
+            </div>
+        </div>
+    </div>
+    <br>
+
+    <!--------------------------Doctors Section------------------------->
+    <div class="container text-center doctor-section my-4">
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/DENTIST,1.jpg" alt="Dentist" class="card-img-top img-fluid rounded">
+                <div class="card-body">
+                    <h5 class="card-title">DENTIST</h5>
+                    <p class="card-text">For your child's whitest teeth.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/CARDIOLOGIST.2.png" alt="Cardiologist" class="card-img-top img-fluid rounded">
+                <div class="card-body">
+                    <h5 class="card-title">CARDIOLOGIST</h5>
+                    <p class="card-text">Got a broken heart?</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-sm-6 mb-4">
+            <div class="card">
+                <img src="image/CHIROPRACTOR.3.png" alt="Chiropractor" class="card-img-top img-fluid rounded">
+                <div class="card-body">
+                    <h5 class="card-title">CHIROPRACTOR</h5>
+                    <p class="card-text">Neck or back pain?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <br>
+
+    <!-- ----------------------Professional Doctors Section------------------>
+
+    <div class="container professional-doctors-section">
+        <h2 class="section-heading">Our Professional Doctors</h2>
+    </div>
+
+    <!-- ----------------------DR. card section------------------ -->
+
+    <div class="container py-5">
+        <div class="row g-4">
+            <!-- Card 1 -->
+            <div class="col-md-6 col-lg-6">
+                <div class="card text-center">
+                    <img src="image/Dr.1.jpg" alt="Doctor Image">
+                    <div class="card-body">
+                        <h5 class="name">Sussie Wolff</h5>
+                        <p class="role">Pediatrician</p>
+                        <p class="card-text">Proin consequat, at commodo. Lorem ipsum dolor sit amet, consectetur
+                            adipiscing elit.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-6 col-lg-6">
+                <div class="card text-center">
+                    <img src="image/Dr.2.jpg" alt="Doctor Image">
+                    <div class="card-body">
+                        <h5 class="name">Ashley Willson</h5>
+                        <p class="role">Dental Surgeon</p>
+                        <p class="card-text">Vivamus sapien ligula, mattis luctus magna. Proin consequat, at
+                            commodo.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-6 col-lg-6">
+                <div class="card text-center">
+                    <img src="image/Dr.3.jpg" alt="Doctor Image">
+                    <div class="card-body">
+                        <h5 class="name">Gabriela Beckett</h5>
+                        <p class="role">Cosmetic Surgeon</p>
+                        <p class="card-text">Donec varius libero tortor. Proin consequat, at commodo eu luctus ipsum
+                            aliquet ut.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col-md-6 col-lg-6">
+                <div class="card text-center">
+                    <img src="image/Dr.4.jpg" alt="Doctor Image">
+                    <div class="card-body">
+                        <h5 class="name">George Button</h5>
+                        <p class="role">General Doctor</p>
+                        <p class="card-text">Curabitur lobortis. Proin consequat, at commodo velit magna cursus
+                            nisi.</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+<!---------------------------Footer Section-------------------------->?
+<footer class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a href="mailto:info@example.com">info@example.com</a></li>
+                    <li><i class="fas fa-phone"></i> +1 123 456 7890</li>
+                    <li><i class="fas fa-map-marker-alt"></i> 123 Main St, Bengaluru, India</li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f"></i> Facebook</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>&copy; 2023 Example Website. All rights reserved.</p>
+    </div>
+</footer>
+
+
+</body>
+
+</html>
